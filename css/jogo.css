@@ -1,0 +1,39 @@
+.jogo {
+    float: left;
+    width: auto;
+    height: 500px;
+    background: #fff;
+    border: 1px solid #a2a2a2;
+    margin-right: 5px;
+}
+
+.font-placar {
+    font-size: 40px;
+}
+
+.table-cronometro {
+    width: 140px;
+    height: 132px;
+}
+
+.td-cronometro {
+    background: url('../imagens/cronometro.png');
+}
+
+#cronometro {
+    position: relative;
+    display: block;
+    color: red;
+    font-size: 25px;
+    text-align: center;
+    top: 4px;
+    left: 4px;
+}
+
+#cenario {
+    float: left;
+    width: 600px;
+    height: 500px;
+    background: url('../imagens/cenario.png');
+    background-position: bottom;
+}
